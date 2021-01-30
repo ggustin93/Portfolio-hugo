@@ -1,0 +1,301 @@
+head:
+  title: "Guillaume Gustin"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Guillaume"
+  subtitle: "Full-Stack Developer"
+  description: "👋 I am a 18-year-old geek from Belgium who's always open to <b>meaningful</b> challenges as a freelance. 🔎 More specifically, I am eager to contribute to the growth of organisations with high <b> societal </b> 🏥 or environmental 🌍 <b>impact</b>. Should you be interested to work with me, please do not be shy, press the <b>contact</b> button 👇"
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/guillaume-gustin/"
+
+    - icon: "github"
+      URL: "https://github.com/ggustin93"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/guillaume.gus/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '
+    <p class="lead" >
+    My area of focus lies in developping web apps and mobile products. I enjoy designing and coding the UI as much as
+    talking with users to iterate and improve the experiences that reach business goals 🎯 However, despite my main expertise is in front-end, I also enjoy having an helicopter view on my projects and get my hand dirty into back-end as well 🚁
+    I therefore consider myself as a <b> full-stack </b> developper, a geeky jack of all trades 🤓<br><br>
+    <span class="badge badge-secondary random_color"> Figma </span>
+    <span class="badge badge-secondary random_color"> Ionic </span>
+    <span class="badge badge-secondary random_color"> Angular </span>
+    <span class="badge badge-secondary random_color"> PWA </span>
+    <span class="badge badge-secondary random_color"> React Native </span>
+    <span class="badge badge-secondary random_color"> Node.js </span>
+    <span class="badge badge-secondary random_color"> Python </span>
+    <span class="badge badge-secondary random_color"> MongoDB  </span>
+    <span class="badge badge-secondary random_color"> Firebase </span>
+    <span class="badge badge-secondary random_color"> Google Cloud Platform </span>  
+    </p>'
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/guillaume-gustin/"
+  image:
+    x: "img/who-am-i/avatar.png"
+    _2x: "img/who-am-i/avatar.png" # should be avatar_2x ideally
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "MIT GSL"
+      year: "2018 - 15 ECTS"
+      degree: "Global Startup Lab Certificate"
+    - university: "Catholic University of Louvain"
+      year: "2017 - 15 ECTS"
+      degree: "Innovation and Transmedia Project Development"
+    - university: "Louvain School of Engineering"
+      year: "2014-2016"
+      degree: "Master of Engineering > Biomedical and Computer Sciences"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: '
+    <p class="lead" >
+  Over the +4 last years, my professional experience has been diverse and in-between academic and entrepreneurial worlds. <br>
+  <span class="badge badge-secondary random_color"> Full-stack Development </span>
+  <span class="badge badge-secondary random_color"> Python Instructor </span>
+  <span class="badge badge-secondary random_color"> Digital Health </span>
+  <span class="badge badge-secondary random_color"> Entrepreneurship </span>
+  <span class="badge badge-secondary random_color"> Biomedical Engineering  </span>
+    </p>'
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/guillaume-gustin/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://www.docdroid.net/eHJFdx0/cv-guillaume-gustin-pdf"
+
+  items:
+    - title: "FS Developper & Python Instructor"
+      company: "Part-time Freelance"
+      duration: "Jan 2021 - Current"
+    - title: "Co-founder & Lead Developper"
+      company: "The Medical Cloud Company "
+      duration: "Feb 2019 - Jan 2021"
+
+    - title: "Research & Teaching Assistant"
+      company: "Catholic University of Louvain"
+      duration: "Jan 2017 - Jan 2019"
+
+    - title: "Junior IT Consultant"
+      company: "Sopra Banking Software"
+      duration: "Sept 2016 - Dec 2016"
+
+# Client & Work
+client_and_work:
+  title: "Latest Works"
+  enable: true
+
+  clients:
+
+    - logo:
+        x: "img/clients/decide_logo.png"
+        _2x: "img/clients/decide_logo.png"
+      alt: "DEC!DE"
+
+    - logo:
+        x: "img/clients/medC2.png"
+        _2x: "img/clients/medC2.png"
+      alt: "MedC2"
+    
+    - logo:
+        x: "img/clients/logo_dlab.png"
+        _2x: "img/clients/logo_dlab.png"
+      alt: "MedC2"
+
+    - logo:
+        x: "img/clients/ucl.png"
+        _2x: "img/clients/ucl.png"
+      alt: "UCL"
+
+    - logo:
+        x: "img/clients/CUSL.png"
+        _2x: "img/clients/CUSL.png"
+      alt: "CUSL"
+
+  works:
+    - title: "ePRO Collection Platform"
+      stack:
+        - name: "Progressive Web App"
+        - name: "Ionic 4" 
+        - name: "Angular 8"
+        - name: "GCP Authentication"
+        - name: "Firestore"
+        - name: "Cloud Functions"
+        - name: "Cloud Messaging"
+        - name: "Cloud Storage"
+      description: "Electronic patient-reported outcomes (ePRO's) are more and more used in clinical trials as they provide standardised, insightful patient-centric information. In the context of the <i>ImmunoSABR</i> trial, I was responsible for the development of an ePRO collection platform from scratch. On the patient side, the mobile app provides a ePRO tasks to-do-list, triggered by automatic reminders through web push notifications (CRON job). On the trial nurse side, the app provides a dashboard to easily manage ePRO forms and participants, while automatically generating and storing PDF reports. <br> <i> © MedC2 </i>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "User Guide"
+        URL: "https://docdro.id/GjujVEE"
+      image:
+        x: "img/works/immuno_mock.png"
+        _2x: "img/works/immuno_mock.png"
+      is_even: true
+    - title: "Patient Decision Aids"
+      stack:
+        - name: "Progressive Web App"
+        - name: "Ionic 4" 
+        - name: "Angular 8"
+        - name: "Firestore"
+        - name: "Cloud Functions"
+        - name: "Cloud Storage"
+      description: "Getting diagnosed with cancer feels overwhelming. Health decisions regarding cancer treatment involve uncertainty or tradeoffs between life expectancy vs quality of life. In this context, I was responsible for the development of <i> Patient decision aids </i> companion App to help patients identify the available alternatives and choose the one that aligns with their values. Amongst others, the app includes a series of user-friendly information modules, educational quizs, open questions and generates a shareable PDF report. The app fosters shared decision making between the patient and the oncologist. <br> <i> © MedC2 </i>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Clinical Trial"
+        URL: "https://clinicaltrials.gov/ct2/show/NCT04375566"
+      image:
+        x: "img/works/ipda_mock.png"
+        _2x: "img/works/ipda_mock.png"
+      is_even: false
+
+    - title: "MyPatientCheck"
+      stack:
+        - name: "Progressive Web App"
+        - name: "Angular 9"
+        - name: "Ionic 5" 
+        - name: "Ionic Storage"
+        - name: "Cloud Functions" 
+      description: "Based on current estimates, 80% of confirmed cases of COVID-19 can be treated as outpatients, up to 20% require hospitalization, and 5% need intensive care <a href='https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(20)30316-7/fulltext'> [1] </a>.  Efficient triage of COVID-19 patients can help the national response planning and case management system cope with patient influx, direct necessary medical resources to efficiently support the critically ill and protect the safety of health-care workers. In this context, I was responsible for the first prototype of <i> MyPatientCheck</i> with aim to inform healthcare professionals about the existence of risk assessment predictive models for symptomatic COVID-19 patients. Such models can be simulated in the app. <br><i> © MedC2 </i>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Press Release"
+        URL: "https://www.prnewswire.com/fr/communiques-de-presse/la-start-up-belge-the-medical-cloud-company-medc2-soutenue-par-860-000-euros-de-la-commission-europeenne-developpe-des-outils-pour-accompagner-les-citoyens-et-medecins-dans-la-gestion-du-covid-19-869151691.html"
+      image:
+        x: "img/works/MyPC_finalB.png"
+        _2x: "img/works/MyPC_finalB.png"
+      is_even: true
+    - title: "DEC!DE Design"
+      stack:
+        - name: "Figma"
+      description: "What if we could leverage culture to raise awareness about environmental and climatic issues ? That is the reflection that we are trying to support, at our level, within our NPO DEC!DE. Through a series of workshops and transmedia tools, we would like to foster concrete changes by offering a fun learning environment about ecology. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Presentation"
+        URL: "https://docs.google.com/presentation/d/1Op95pkfVlUjElU0VGjlVz5bk4xikbmNrjFCbzP92Ce8/edit?usp=sharing"
+      image:
+        x: "img/works/decide_mock.png"
+        _2x: "img/works/decide_mock.png"
+      is_even: false
+
+    - title: "© Wadaff"
+      stack:
+        - name: "Google Maps API"
+        - name: "Angular 8"
+        - name: "Ionic 4" 
+        - name: "Firestore"
+        - name: "Progressive Web App"
+        - name: "Gitlab CD/CI"
+        - name: "Facebook API"
+
+      description: "Passionate about music, but undecided about your friday night plans ? That is the reflection from which we started to prototype Wadaff (<i> Waar is da feestje ? </i>) with <a href='https://www.linkedin.com/in/vdsbenoit/'> B. Vander Stappen</a> (DJ and nerd), before COVID-19 happened...The features we started to develop include events mapping, real-time rating, and advanced filtering. Besides, we imagined such an app would the perfect opportunity for event organisators, bars, festivals to offer e-happy hours and many advantages."
+      button:
+        enabled: false
+        icon: ""
+        btnText: ""
+        URL: "#"
+      image:
+        x: "img/works/wadaff.png"
+        _2x: "img/works/wadaff.png"
+      is_even: true
+
+# blog
+blog:
+  enable: false
+  title: "Blog"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    # FORMSPREE Project :-)
+    action: "https://formspree.io/f/mknpykzy"
+    method: "POST"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+ # phone:
+   # title: "Phone Number"
+  #  number: "+32 (0)494 87 89 36"
+  email:
+    title: "Email"
+    email: '<a href="mailto:guillaume.gustin.9@gmail.com">guillaume.gustin.9@gmail.com</a>'
+  # address:
+    # title: "Address"
+    # address: "Rue des Anges 52, 1320 Beauvechain"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
