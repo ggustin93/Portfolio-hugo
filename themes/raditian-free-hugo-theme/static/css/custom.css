@@ -37,3 +37,7 @@ img:hover {
           /* Customize ? */
   
     }
+
+    .myred{
+        background-color:rgb(233, 63, 51) !important;
+    }

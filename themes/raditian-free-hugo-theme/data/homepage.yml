@@ -6,7 +6,7 @@ showcase:
   enable: true
   title: "Hello, I’m Guillaume"
   subtitle: "Full-Stack Developer"
-  description: "👋 I am a 18-year-old geek from Belgium who's always open to <b>meaningful</b> challenges as a freelance. 🔎 More specifically, I am eager to contribute to the growth of organisations with high <b> societal </b> 🏥 or environmental 🌍 <b>impact</b>. Should you be interested to work with me, please do not be shy, press the <b>contact</b> button 👇"
+  description: "👋 I am a 28-year-old geek from Belgium who's always open to <b>meaningful</b> challenges as a freelance. 🔎 More specifically, I am eager to contribute to the growth of organisations with high <b> societal </b> 🏥 or environmental 🌍 <b>impact</b>. Should you be interested to work with me, please do not be shy, press the <b>contact</b> button 👇"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -37,6 +37,9 @@ about:
     My area of focus lies in developping web apps and mobile products. I enjoy designing and coding the UI as much as
     talking with users to iterate and improve the experiences that reach business goals 🎯 However, despite my main expertise is in front-end, I also enjoy having an helicopter view on my projects and get my hand dirty into back-end as well 🚁
     I therefore consider myself as a <b> full-stack </b> developper, a geeky jack of all trades 🤓<br><br>
+    <span class="badge badge-secondary myred"> Creative Problem Solving </span>
+    <span class="badge badge-secondary myred"> UX Design  </span> 
+    <span class="badge badge-secondary myred"> Digital Product Development </span> <br>
     <span class="badge badge-secondary random_color"> Figma </span>
     <span class="badge badge-secondary random_color"> Ionic </span>
     <span class="badge badge-secondary random_color"> Angular </span>
@@ -62,14 +65,18 @@ education:
   title: "Education"
   items:
     - university: "MIT GSL"
-      year: "2018 - 15 ECTS"
-      degree: "Global Startup Lab Certificate"
+      year: "2018 [15 ECTS]"
+      degree: "Global Startup Labs - Certificate"
     - university: "Catholic University of Louvain"
-      year: "2017 - 15 ECTS"
-      degree: "Innovation and Transmedia Project Development"
+      year: "2017 [15 ECTS]"
+      degree: "Innovation and Transmedia Project Development - Certificate "
     - university: "Louvain School of Engineering"
-      year: "2014-2016"
-      degree: "Master of Engineering > Biomedical and Computer Sciences"
+      year: "2014-2016 [120 ECTS]"
+      degree: "□ Master in Biomedical Engineering >  Bioinformatics <span class='badge badge-secondary random_color'> Cum Laude</span> 
+      <br> □ Master thesis > \"<i>Diabetes management through artificial intelligence and gamification: Blood glucose prediction models and mHealth design considerations</i> \""
+    - university: "Louvain School of Engineering"
+      year: "2010-2014 [195 ECTS]"
+      degree: "Bachelor of Engineering > Biomedical and Computer Sciences"
 
 # experience
 experience:
@@ -82,6 +89,7 @@ experience:
   <span class="badge badge-secondary random_color"> Python Instructor </span>
   <span class="badge badge-secondary random_color"> Digital Health </span>
   <span class="badge badge-secondary random_color"> Entrepreneurship </span>
+  <span class="badge badge-secondary random_color"> Academic Research </span>
   <span class="badge badge-secondary random_color"> Biomedical Engineering  </span>
     </p>'
   button:
