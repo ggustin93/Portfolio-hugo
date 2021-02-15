@@ -22,6 +22,7 @@ theme = "raditian-free-hugo-theme"
   URL = "js/library/fontfaceobserver.js"
 
 
+
 # navigation
 [menu]
 
@@ -61,6 +62,9 @@ theme = "raditian-free-hugo-theme"
   sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "blog", "contact", "newsletter"]
 
   googleTagManagerID = "G-L7171BRGRC" # Google Analytics works with Google Tag Manager
+
+  [params.meta_img] 
+    URL = "img/who-am-i/avatar.png"
 
   [params.logo]
     text1 = "Guillaume"

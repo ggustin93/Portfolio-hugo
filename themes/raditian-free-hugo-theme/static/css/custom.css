@@ -41,3 +41,7 @@ img:hover {
     .myred{
         background-color:rgb(233, 63, 51) !important;
     }
+
+    #full_name_label{display: none;}
+    #message_label{display: none;}
+    #email_label{display: none;}
