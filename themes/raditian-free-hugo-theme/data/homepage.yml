@@ -6,7 +6,7 @@ showcase:
   enable: true
   title: "Hello, I’m Guillaume"
   subtitle: "Full-Stack Developer"
-  description: "👋 I am a 28-year-old geek from Belgium who's always open to <b>meaningful</b> challenges as a freelance. 🔎 More specifically, I am eager to contribute to the growth of organisations with high <b> societal </b> 🏥 or environmental 🌍 <b>impact</b>. Should you be interested to work with me, please do not be shy, press the <b>contact</b> button 👇"
+  description: "👋  I am a 28-year-old geek from Belgium who's always open to <b>meaningful</b> challenges as a freelance  🔎  More specifically, I am eager to contribute to the growth of organisations with high <b> societal </b> 🏥  or with high sustainability goals 🌍 Should you be interested to work with me, please do not be shy, press the <b>contact</b> button 👇"
   image:
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
@@ -34,9 +34,9 @@ about:
   title: "Who am I?"
   content: '
     <p class="lead" >
-    My area of focus lies in developping web apps and mobile products. I enjoy designing and coding the UI as much as
+    My area of focus lies in developing web apps and mobile products. I enjoy designing and coding the UI as much as
     talking with users to iterate and improve the experiences that reach business goals 🎯 However, despite my main expertise is in front-end, I also enjoy having an helicopter view on my projects and get my hand dirty into back-end as well 🚁
-    I therefore consider myself as a <b> full-stack </b> developper, a geeky jack of all trades 🤓<br><br>
+    I therefore consider myself as a <b> full-stack </b> developer, a geeky jack of all trades 🤓<br><br>
     <span class="badge badge-secondary myred"> Software Development </span> 
     <span class="badge badge-secondary myred"> Creative Problem Solving </span>
     <span class="badge badge-secondary myred"> UX Design  </span> 
@@ -104,10 +104,10 @@ experience:
     URL: "https://www.docdroid.net/eHJFdx0/cv-guillaume-gustin-pdf"
 
   items:
-    - title: "FS Developper & Python Instructor"
+    - title: "FS developer & Python Instructor"
       company: "Part-time Freelance"
       duration: "Jan 2021 - Current"
-    - title: "Co-founder & Lead Developper"
+    - title: "Co-founder & Lead developer"
       company: "The Medical Cloud Company "
       duration: "Feb 2019 - Jan 2021"
 
