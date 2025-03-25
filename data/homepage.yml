@@ -111,28 +111,23 @@ experience:
       duration: "Jan 2022 - Current"
       icon: "icon-globe"
       highlight: true
-      description: "Leading a sustainable web design agency focused on creating eco-friendly digital experiences for impact-driven organizations."
     - title: "Digital Transformation Advisor"
       company: "BRUXEO"
       duration: "Nov 2022 - Oct 2024"
       icon: "icon-chart-line"
       highlight: true
-      description: "Guiding non-profit organizations through their digital transformation journey with a focus on sustainability and social impact."
     - title: "Full Stack Dev & Python Instructor"
       company: "Part-time Freelance"
       duration: "Jan 2021 - Current"
       icon: "icon-code"
-      description: "Developing custom web applications and teaching Python programming to aspiring developers."
     - title: "Co-founder & Lead developer"
-      company: "The Medical Cloud Company "
+      company: "The Medical Cloud Company"
       duration: "Feb 2019 - Jan 2021"
       icon: "icon-cloud"
-      description: "Built healthcare applications focusing on patient engagement and clinical decision support."
     - title: "Research & Teaching Assistant"
       company: "Catholic University of Louvain"
       duration: "Jan 2017 - Jan 2019"
       icon: "icon-book-open"
-      description: "Conducted research in biomedical informatics and taught programming courses to engineering students."
 
 # Client & Work
 client_and_work:
@@ -158,7 +153,7 @@ client_and_work:
     - logo:
         x: "img/clients/medC2.webp"
         _2x: "img/clients/medC2.webp"
-        original: "img/clients/medC2.avif" # Déjà en AVIF
+        original: "img/clients/medC2.webp" # Déjà en AVIF
         avif: "img/clients/medC2.avif"
       alt: "MedC2"
     

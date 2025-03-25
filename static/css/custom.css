@@ -281,3 +281,10 @@ img:hover {
     transform: translate(-3px, -3px);
     box-shadow: 9px 9px 0 #e05d44;
 }
+
+/* Ajuster l'affichage des logos clients sur mobile */
+@media (max-width: 768px) {
+    .clients {
+        display: none !important;
+    }
+}
