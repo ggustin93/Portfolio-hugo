@@ -1,9 +1,31 @@
-# Portfolio-hugo
-* *Hugo* is a static website generator written in Go. It is optimised for speed, ease of use, and configurability. Let's give it a try and make a nice portfolio ! 👉 Live version: https://guillaumegustin.com/ 
-* This website almost scores a perfect Lighthouse audit 
+# guillaumegustin.com - Professional portfolio
 
-<div style="text-align:center;margin:1em;">
-  <img src="https://i.imgur.com/m7GjCqn.png" style="width:400px">
+A simple, responsive portfolio website built with Hugo that focuses on performance and clean design. This site showcases my professional work and technical skills.
+
+## Features
+
+- **Fast loading**: High Lighthouse scores through optimized assets
+- **Responsive design**: Adapts to all screen sizes and devices
+- **Modern image formats**: Support for WebP and AVIF with appropriate fallbacks
+- **Accessible**: Designed with basic accessibility considerations
+- **Sustainable**: Minimizes unnecessary resources and code
+
+## Technical details
+
+- **Hugo**: Static site generator for speed and simplicity
+- **Custom CSS**: Clean styling without framework dependencies
+- **Image optimization**: Custom scripts to convert and compress images
+- **Firebase hosting**: Simple and reliable deployment
+
+## Performance
+
+The site achieves good performance metrics:
+
+<div>
+  <img src="https://i.imgur.com/m7GjCqn.png" alt="Lighthouse score" width="600">
 </div>
 
-* __NB__ This portfolio has been adapted from [Raditian Free Hugo Theme](https://github.com/radity/raditian-free-hugo-theme/blob/master/LICENSE) under MIT License.
+## Credits
+
+Based on [Raditian Free Hugo Theme](https://github.com/radity/raditian-free-hugo-theme) (MIT License) with personal customizations.
+
