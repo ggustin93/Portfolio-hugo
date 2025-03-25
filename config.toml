@@ -1,0 +1,118 @@
+baseURL = "https://guillaumegustin.com/"
+languageCode = "en-us"
+theme = "raditian-free-hugo-theme"
+
+# Configuration pour le traitement des images
+[imaging]
+  resampleFilter = "lanczos"
+  quality = 90
+  anchor = "smart"
+  
+  # Formats d'images modernes
+  [imaging.exif]
+    disableDate = true
+    disableLatLong = true
+    includeFields = ""
+    excludeFields = ""
+  
+  # Configuration pour WebP et AVIF
+  [imaging.webp]
+    quality = 85
+  
+  [imaging.avif]
+    quality = 80
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+
+# navigation
+[menus]
+
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Education"
+  URL = "#education"
+  weight = 3
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 4
+
+  [[menu.header]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 5
+
+  [[menu.header]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 6
+
+
+ [[menu.footer]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Portfolio"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Contact"
+  URL = "#contact"
+  weight = 4
+
+
+
+
+[params]
+
+  sections = ["showcase", "about", "tech-stack", "education", "experience", "client-and-work", "testimonial", "blog", "contact", "newsletter"]
+
+  googleTagManagerID = "" # Google Analytics works with Google Tag Manager
+
+  [params.meta_img] 
+    URL = "img/who-am-i/avatar_mini.jpeg"
+
+  [params.logo]
+    text1 = "Guillaume"
+    text2 = "Gustin"
+
+  [params.footer]
+  copyright = "© Guillaume Gustin. All rights reserved."
+
+  [params.footer.radity_logo]
+    x = "img/general/design-and-code-radity.png"
+    _2x = "img/general/design-and-code-radity@2x.png"
+    alt = "Design & Code - Radity"
+
+# Activation du sitemap
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5

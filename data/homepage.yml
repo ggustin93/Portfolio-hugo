@@ -1,0 +1,393 @@
+head:
+  title: "Guillaume Gustin - Full-Stack Developer"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I'm Guillaume"
+  subtitle: "Full-Stack JS Developer"
+  description: "I create <b>impactful digital solutions</b> that blend technical expertise with strategic vision. <br><br>Specialized in innovative projects for organizations focused on <b>social impact</b> and <b>sustainability</b> 🌱"
+  image:
+    x: "img/showcase/showcase.webp"
+    _2x: "img/showcase/showcase@2x.webp"
+    original: "img/showcase/showcase.png"
+    original_2x: "img/showcase/showcase@2x.png"
+    avif: "img/showcase/showcase.avif"
+    avif_2x: "img/showcase/showcase@2x.avif"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.webp"
+    original: "img/showcase/showcase-mobile.jpg"
+    avif: "img/showcase/showcase-mobile.avif"
+
+  button:
+    icon: "icon-user-fill"
+    btnText: "Learn More"
+    URL: "#about"
+    
+  button2:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+
+  socialLinks:
+    - icon: "whatsapp"
+      URL: "https://api.whatsapp.com/send/?phone=32456617260&text&type=phone_number&app_absent=0"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  icon: "icon-user-fill"
+  content: |
+    <p class="lead">
+    Web developer with a Biomedical Engineering background, I bring an analytical approach to digital solutions. I create responsive and intuitive experiences that combine technical quality with meaningful impact.
+    </p>
+    <p class="lead">
+    My journey includes eHealth research, a medtech startup, and digital consulting for impact-driven organizations. I enjoy bridging technical complexity and user-centered design, particularly in healthcare applications.
+    </p>
+    <p class="lead">
+    Beyond coding, I'm passionate about sustainable digital practices and solutions that align with environmental and social values. Whether you need a complex web application or a simple website, I approach each project with dedication to quality and purpose.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "View My Projects"
+    URL: "#client_and_work"
+  image:
+    x: "img/who-am-i/profile-pic-gg.webp"
+    _2x: "img/who-am-i/profile-pic-gg.webp"
+    original: "img/who-am-i/profile-pic-gg.webp"
+    avif: "img/who-am-i/profile-pic-gg.webp"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  icon: "icon-graduation-cap"
+  items:
+    - university: "MIT Global Startup Labs"
+      year: "2018"
+      degree: "Entrepreneurship & Innovation Certificate"
+      icon: "icon-briefcase"
+    - university: "Catholic University of Louvain"
+      year: "2017"
+      degree: "Innovation and Transmedia Project Development"
+      icon: "icon-lightbulb"
+    - university: "Louvain School of Engineering"
+      year: "2014-2016"
+      degree: "Master in Biomedical Engineering > Bioinformatics <span class='badge badge-secondary myred'> Cum Laude</span><br>Master thesis: \"Diabetes management through artificial intelligence and gamification: Blood glucose prediction models and mHealth design considerations.\""
+      icon: "icon-award"
+    - university: "Louvain School of Engineering"
+      year: "2010-2014"
+      degree: "Bachelor of Engineering - Biomedical and Computer Sciences"
+      icon: "icon-code"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  icon: "icon-briefcase"
+  description: '<p class="lead">
+  My professional journey spans across <b>digital innovation</b>, <b>sustainability</b>, and <b>social impact</b> sectors. I bring a unique blend of technical expertise and purpose-driven approach to every project. <br><br>
+  <span class="badge badge-secondary myred"> Full-stack Development </span>
+  <span class="badge badge-secondary myred"> Digital Transformation </span>
+  <span class="badge badge-secondary myred"> Sustainable Web Design </span>
+  <span class="badge badge-secondary random_color"> Python Instructor </span>
+  <span class="badge badge-secondary random_color"> Digital Health </span>
+  <span class="badge badge-secondary random_color"> Entrepreneurship </span>
+  <span class="badge badge-secondary random_color"> Academic Research </span>
+  <span class="badge badge-secondary random_color"> Biomedical Engineering </span>
+  </p><br>'
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Connect on LinkedIn"
+    URL: "https://www.linkedin.com/in/guillaume-gustin/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download Resume"
+    URL: "https://www.canva.com/design/DAEqu630WFc/JXZzm8oDu6iWHbwo8gDidQ/view?utm_content=DAEqu630WFc&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha66b906dcd"
+
+  items:
+    - title: "Founder & Web Designer"
+      company: "Pwablo | Sustainable Web Agency"
+      duration: "Jan 2022 - Current"
+      icon: "icon-globe"
+      highlight: true
+      description: "Leading a sustainable web design agency focused on creating eco-friendly digital experiences for impact-driven organizations."
+    - title: "Digital Transformation Advisor"
+      company: "BRUXEO"
+      duration: "Nov 2022 - Oct 2024"
+      icon: "icon-chart-line"
+      highlight: true
+      description: "Guiding non-profit organizations through their digital transformation journey with a focus on sustainability and social impact."
+    - title: "Full Stack Dev & Python Instructor"
+      company: "Part-time Freelance"
+      duration: "Jan 2021 - Current"
+      icon: "icon-code"
+      description: "Developing custom web applications and teaching Python programming to aspiring developers."
+    - title: "Co-founder & Lead developer"
+      company: "The Medical Cloud Company "
+      duration: "Feb 2019 - Jan 2021"
+      icon: "icon-cloud"
+      description: "Built healthcare applications focusing on patient engagement and clinical decision support."
+    - title: "Research & Teaching Assistant"
+      company: "Catholic University of Louvain"
+      duration: "Jan 2017 - Jan 2019"
+      icon: "icon-book-open"
+      description: "Conducted research in biomedical informatics and taught programming courses to engineering students."
+
+# Client & Work
+client_and_work:
+  title: "Featured Works"
+  icon: "icon-briefcase"
+  enable: true
+  clients_title: "Clients & Partners"
+  clients:
+    - logo:
+        x: "img/clients/bruxeo.webp"
+        _2x: "img/clients/bruxeo.webp"
+        original: "img/clients/bruxeo.png"
+        avif: "img/clients/bruxeo.avif"
+      alt: "BRUXEO"
+
+    - logo:
+        x: "img/clients/decide_logo.webp"
+        _2x: "img/clients/decide_logo.webp"
+        original: "img/clients/decide_logo.png"
+        avif: "img/clients/decide_logo.avif"
+      alt: "DEC!DE"
+
+    - logo:
+        x: "img/clients/medC2.webp"
+        _2x: "img/clients/medC2.webp"
+        original: "img/clients/medC2.avif" # Déjà en AVIF
+        avif: "img/clients/medC2.avif"
+      alt: "MedC2"
+    
+    - logo:
+        x: "img/clients/logo_dlab.webp"
+        _2x: "img/clients/logo_dlab.webp"
+        original: "img/clients/logo_dlab.png"
+        avif: "img/clients/logo_dlab.avif"
+      alt: "Digital Lab"
+
+    - logo:
+        x: "img/clients/ucl.webp"
+        _2x: "img/clients/ucl.webp"
+        original: "img/clients/ucl.png"
+        avif: "img/clients/ucl.avif"
+      alt: "UCL"
+
+    - logo:
+        x: "img/clients/CUSL.webp"
+        _2x: "img/clients/CUSL.webp"
+        original: "img/clients/CUSL.png"
+        avif: "img/clients/CUSL.avif"
+      alt: "CUSL"
+
+  works:
+    - title: "ePRO Collection Platform"
+      stack:
+        - name: "Progressive Web App"
+        - name: "Ionic 4" 
+        - name: "Angular 8"
+        - name: "GCP Authentication"
+        - name: "Firestore"
+        - name: "Cloud Functions"
+        - name: "Cloud Messaging"
+        - name: "Cloud Storage"
+      description: "I developed a comprehensive electronic patient-reported outcomes (ePRO) collection platform for the ImmunoSABR clinical trial. This mobile-first progressive web app features a patient interface with automated task reminders via web push notifications, and a clinical dashboard for healthcare professionals to manage forms and participants. The system automatically generates and securely stores PDF reports, enhancing data collection efficiency while maintaining strict healthcare compliance standards. <br> <i> © MedC2 </i>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "User Guide"
+        URL: "https://docdro.id/GjujVEE"
+      image:
+        x: "img/works/immuno_mock.webp"
+        _2x: "img/works/immuno_mock.webp"
+        original: "img/works/immuno_mock.png"
+        avif: "img/works/immuno_mock.avif"
+      is_even: true
+      featured: true
+    - title: "Patient Decision Aids"
+      stack:
+        - name: "Progressive Web App"
+        - name: "Ionic 4" 
+        - name: "Angular 8"
+        - name: "Firestore"
+        - name: "Cloud Functions"
+        - name: "Cloud Storage"
+      description: "I designed and built a patient-centered decision aid application to support cancer patients in making informed treatment choices. This responsive web app delivers personalized medical information through interactive modules, educational quizzes, and guided reflection questions. The platform generates shareable PDF reports that facilitate meaningful doctor-patient discussions about treatment options, balancing quality of life considerations with clinical outcomes. This digital health solution enhances shared decision-making in oncology settings. <br> <i> © MedC2 </i>"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Clinical Trial"
+        URL: "https://clinicaltrials.gov/ct2/show/NCT04375566"
+      image:
+        x: "img/works/ipda_mock.webp"
+        _2x: "img/works/ipda_mock.webp"
+        original: "img/works/ipda_mock.png"
+        avif: "img/works/ipda_mock.avif"
+      is_even: false
+      featured: true
+    - title: "DEC!DE Design"
+      stack:
+        - name: "Figma"
+      description: "As a member and lead designer/developer for the non-profit organization DEC!DE, I create digital tools that leverage cultural engagement to raise environmental awareness. Our transmedia approach combines interactive workshops with innovative digital experiences, making complex ecological concepts accessible and actionable. Through user-centered design principles, we've developed engaging interfaces that transform environmental education into meaningful behavioral change, demonstrating how thoughtful UX design can contribute to sustainability initiatives."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Presentation"
+        URL: "https://docs.google.com/presentation/d/1Op95pkfVlUjElU0VGjlVz5bk4xikbmNrjFCbzP92Ce8/edit?usp=sharing"
+      image:
+        x: "img/works/decide_mock.webp"
+        _2x: "img/works/decide_mock.webp"
+        original: "img/works/decide_mock.png"
+        avif: "img/works/decide_mock.avif"
+      is_even: true
+      featured: false
+    - title: "Pwablo"
+      stack:
+        - name: "Sustainable Web Design"
+        - name: "Webflow"
+        - name: "Figma" 
+        - name: "Jamstack"
+        - name: "Custom JS/HTML5/CSS3"
+      button:
+        enabled: true
+        icon: ""
+        btnText: "Visit Pwablo"
+        URL: "https://www.pwablo.be/"
+      image:
+        x: "img/works/pwablo.webp"
+        _2x: "img/works/pwablo.webp"
+        original: "img/works/pwablo.png"
+        avif: "img/works/pwablo.avif"
+      is_even: false
+      featured: true
+      description: "Pwablo is my sustainable web agency focused on creating eco-designed digital experiences for impact-driven organizations. We specialize in developing lightweight, performance-optimized websites that align with the UN Sustainable Development Goals. Using environmental performance analysis tools like Website Carbon Calculator, we implement green web design principles to reduce digital carbon footprints. Beyond development, we offer workshops on sustainable digital practices, helping organizations understand and minimize their environmental impact while maintaining exceptional user experiences."
+
+    - title: "MyPatientCheck"
+      stack:
+        - name: "Progressive Web App"
+        - name: "Angular 9" 
+        - name: "Ionic 5"
+        - name: "Ionic Storage"
+        - name: "Cloud Functions"
+      description: "Based on current estimates, 80% of confirmed cases of COVID-19 can be treated as outpatients, up to 20% require hospitalization, and 5% need intensive care. Efficient triage of COVID-19 patients can help the national response planning and case management system cope with patient influx, direct necessary medical resources to efficiently support the critically ill and protect the safety of health-care workers. In this context, I was responsible for the first prototype of MyPatientCheck with aim to inform healthcare professionals about the existence of risk assessment predictive models for symptomatic COVID-19 patients. Such models can be simulated in the app. <br> <i> © MedC2 </i>"
+      button:
+        enabled: false
+        icon: ""
+        btnText: ""
+        URL: ""
+      image:
+        x: "img/works/MyPC_finalB.webp"
+        _2x: "img/works/MyPC_finalB.webp"
+        original: "img/works/MyPC_finalB.png"
+        avif: "img/works/MyPC_finalB.avif"
+      is_even: true
+      featured: false
+
+    - title: "Wadaff"
+      stack:
+        - name: "Google Maps API"
+        - name: "Angular 8" 
+        - name: "Ionic 4"
+        - name: "Firestore"
+        - name: "Progressive Web App"
+        - name: "Gitlab CD/CI"
+        - name: "Facebook API"
+      description: "Passionate about music, but undecided about your friday night plans? That is the reflection from which we started to prototype Wadaff (Waar is da feestje?) with B. Vander Stappen (DJ and nerd), before COVID-19 happened. The features we started to develop include events mapping, real-time rating, and advanced filtering. Besides, we imagined such an app would the perfect opportunity for event organisators, bars, festivals to offer e-happy hours and many advantages. <br> <i> © Wadaff </i>"
+      button:
+        enabled: false
+        icon: ""
+        btnText: ""
+        URL: ""
+      image:
+        x: "img/works/wadaff.webp"
+        _2x: "img/works/wadaff.webp"
+        original: "img/works/wadaff.png"
+        avif: "img/works/wadaff.avif"
+      is_even: false
+      featured: false
+
+# blog
+blog:
+  enable: false
+  title: "Blog"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it's always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.webp"
+        _2x: "img/testimonials/daniel-jordan@2x.webp"
+        original: "img/testimonials/daniel-jordan.jpg"
+        original_2x: "img/testimonials/daniel-jordan@2x.jpg"
+        avif: "img/testimonials/daniel-jordan.avif"
+        avif_2x: "img/testimonials/daniel-jordan@2x.avif"
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it's always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.webp"
+        _2x: "img/testimonials/daniel-jordan@2x.webp"
+        original: "img/testimonials/daniel-jordan.jpg"
+        original_2x: "img/testimonials/daniel-jordan@2x.jpg"
+        avif: "img/testimonials/daniel-jordan.avif"
+        avif_2x: "img/testimonials/daniel-jordan@2x.avif"
+
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.webp"
+        _2x: "img/testimonials/jonathan-peters@2x.webp"
+        original: "img/testimonials/jonathan-peters.jpg"
+        original_2x: "img/testimonials/jonathan-peters@2x.jpg"
+        avif: "img/testimonials/jonathan-peters.avif"
+        avif_2x: "img/testimonials/jonathan-peters@2x.avif"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.webp"
+        _2x: "img/testimonials/antonio-willis@2x.webp"
+        original: "img/testimonials/antonio-willis.jpg"
+        original_2x: "img/testimonials/antonio-willis@2x.jpg"
+        avif: "img/testimonials/antonio-willis.avif"
+        avif_2x: "img/testimonials/antonio-willis@2x.avif"
+
+# contact
+contact:
+  enable: true
+  title: "Let's connect"
+  subtitle: "Ready to transform your idea into reality? Schedule a call or contact me directly."
+  icon: "icon-mail-fill"
+  form:
+    # FORMSPREE Project :-)
+    action: "https://formspree.io/f/mknpykzy"
+    method: "POST"
+    full_name: "Your Name"
+    email: "Your Email"
+    message: "Tell me about your project..."
+  email:
+    title: "Email"
+    email: '<a href="mailto:guillaume.gustin.9@gmail.com">guillaume.gustin.9@gmail.com</a>'
+  phone:
+    title: "Contact"
+    number: '<a href="https://cal.com/pwablo/30min" target="_blank"><img src="https://cdn.simpleicons.org/googlecalendar/444444/20" alt="Calendar" style="vertical-align: middle; margin-right: 5px; width: 20px;"> Schedule a call</a> or <a href="https://api.whatsapp.com/send/?phone=32456617260&text&type=phone_number&app_absent=0" target="_blank"><img src="https://cdn.simpleicons.org/whatsapp/25D366/20" alt="WhatsApp" style="vertical-align: middle; margin-right: 5px; width: 20px;"> WhatsApp</a> (+32 456 617 260)'
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    class: "btn-primary"
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else." 
