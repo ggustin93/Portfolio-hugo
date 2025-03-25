@@ -52,10 +52,10 @@ about:
     btnText: "View My Projects"
     URL: "#client_and_work"
   image:
-    x: "img/who-am-i/profile-pic-gg.webp"
-    _2x: "img/who-am-i/profile-pic-gg.webp"
-    original: "img/who-am-i/profile-pic-gg.webp"
-    avif: "img/who-am-i/profile-pic-gg.webp"
+    x: "img/who-am-i/avatar_mini.webp"
+    _2x: "img/who-am-i/avatar_mini.webp"
+    original: "img/who-am-i/avatar_mini.webp"
+    avif: "img/who-am-i/avatar_mini.webp"
 
 # education
 education:
