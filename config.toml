@@ -97,7 +97,7 @@ theme = "raditian-free-hugo-theme"
   googleTagManagerID = "" # Google Analytics works with Google Tag Manager
 
   [params.meta_img] 
-    URL = "img/who-am-i/avatar_mini.jpeg"
+    URL = "img/who-am-i/avatar_mini.webp"
 
   [params.logo]
     text1 = "Guillaume"
