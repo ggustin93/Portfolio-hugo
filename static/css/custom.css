@@ -288,3 +288,216 @@ img:hover {
         display: none !important;
     }
 }
+
+.publications {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    border-left: 3px solid #e6e6e6;
+    margin-bottom: 5px;
+    height: 100%;
+}
+
+.publications__header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.publication-date {
+    color: #858585;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.publication-title {
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.publication-title i {
+    color: #e05d44;
+}
+
+.publication-organization {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.publications__description {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.4;
+}
+
+.publications-container {
+    margin-top: 15px;
+}
+
+.publication-item {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-left: 3px solid #e6e6e6;
+    border-radius: 4px;
+}
+
+.publication-header {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.publication-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+}
+
+/* Styles améliorés pour la section Publications */
+.publications-grid {
+    margin-top: 10px;
+}
+
+.publication-card {
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 25px;
+    height: 100%;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #000;
+    box-shadow: 8px 8px 0 #e05d44;
+}
+
+.publication-card:hover {
+    transform: translate(-3px, -3px);
+    box-shadow: 11px 11px 0 #e05d44;
+}
+
+.publication-card__year {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 15px;
+    color: #888;
+    font-weight: 500;
+}
+
+.publication-card__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+.publication-card__header i {
+    color: #e05d44;
+    font-size: 22px;
+}
+
+.publication-card__header h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+
+.publication-card__org {
+    font-size: 15px;
+    color: #666;
+    font-weight: 500;
+    margin-bottom: 15px;
+    border-left: 3px solid #e6e6e6;
+    padding-left: 10px;
+}
+
+.publication-card__desc {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.publication-card__action {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.publication-card__action .mx-2 {
+    margin: 0 8px;
+    color: #999;
+}
+
+.btn-publication {
+    display: inline-flex;
+    align-items: center;
+    color: #e05d44;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    outline: none;
+    margin-right: 5px;
+}
+
+.btn-publication i {
+    opacity: 0;
+    margin-left: 5px;
+    transition: all 0.2s ease;
+    transform: translateX(-5px);
+}
+
+.btn-publication:hover,
+.btn-publication:active,
+.btn-publication:focus {
+    color: #c63c2c;
+    border-bottom: 1px solid #c63c2c;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-publication:hover i {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Style du titre avec icône */
+#publications h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#publications h2 i {
+    color: #e05d44;
+    font-size: 0.9em;
+}
+
+/* Adaptations pour mobile */
+@media (max-width: 768px) {
+    .publication-card {
+        padding: 20px;
+    }
+    
+    .publication-card__header h3 {
+        font-size: 18px;
+    }
+    
+    .publication-card__year {
+        top: 15px;
+        right: 15px;
+        font-size: 14px;
+    }
+}

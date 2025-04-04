@@ -12,35 +12,35 @@
                           {{ $companyName := .company | lower }}
                           {{ if eq $companyName "pwablo | sustainable web agency" }}
                               {{ partial "responsive-image.html" (dict 
-                                  "src" "img/companies/pwablo_logo.webp"
+                                  "src" "/img/companies/pwablo_logo.webp"
                                   "alt" "Pwablo Logo"
                                   "class" "company-logo"
                                   "lazy" true
                               ) }}
                           {{ else if eq $companyName "bruxeo" }}
                               {{ partial "responsive-image.html" (dict 
-                                  "src" "img/companies/bruxeo.png"
+                                  "src" "/img/companies/bruxeo.png"
                                   "alt" "BRUXEO Logo"
                                   "class" "company-logo"
                                   "lazy" true
                               ) }}
                           {{ else if eq $companyName "part-time freelance" }}
                               {{ partial "responsive-image.html" (dict 
-                                  "src" "img/companies/GG_logo.png"
+                                  "src" "/img/companies/GG_logo.png"
                                   "alt" "GG Logo"
                                   "class" "company-logo"
                                   "lazy" true
                               ) }}
-                         {{ else if eq $companyName "the medical cloud company" }}
+                          {{ else if eq $companyName "the medical cloud company" }}
                               {{ partial "responsive-image.html" (dict 
-                                  "src" "img/companies/medC2.webp"
+                                  "src" "/img/companies/medC2.webp"
                                   "alt" "Medical Cloud Company Logo"
                                   "class" "company-logo"
                                   "lazy" true
                               ) }}
                           {{ else if eq $companyName "catholic university of louvain" }}
                               {{ partial "responsive-image.html" (dict 
-                                  "src" "img/companies/logo_uclouvain.png"
+                                  "src" "/img/companies/logo_uclouvain.png"
                                   "alt" "UCLouvain Logo"
                                   "class" "company-logo"
                                   "lazy" true
@@ -52,7 +52,7 @@
                           <div class="experience__title">{{ .title }}</div>
                           <div class="experience__company">{{ .company }}</div>
                           {{ if .description }}
-                          <div class="experience__description">{{ .description }}</div>
+                          <div class="experience__description">{{ .description | safeHTML }}</div>
                           {{ end }}
                       </div>
                   </div>
@@ -61,16 +61,18 @@
               <div class="col-12 col-sm-6">
                   <h2>{{ .Site.Data.homepage.experience.title }}</h2>
                   {{ .Site.Data.homepage.experience.description | safeHTML }}
-                  <a href="{{ .Site.Data.homepage.experience.button.URL | absURL }}" class="btn btn-primary" target="_blank" rel="noopener">
-                      <i class="{{ .Site.Data.homepage.experience.button.icon }}"></i>
-                      {{ .Site.Data.homepage.experience.button.btnText }}
-                  </a>
-                  {{ if isset .Site.Data.homepage.experience "button2" }}
-                  <a href="{{ .Site.Data.homepage.experience.button2.URL | absURL }}" class="btn btn-frameless" target="_blank" rel="noopener">
-                      <i class="{{ .Site.Data.homepage.experience.button2.icon }}"></i>
-                      {{ .Site.Data.homepage.experience.button2.btnText }}
-                  </a>
-                  {{ end }}
+                  <div class="experience-buttons">
+                      <a href="{{ .Site.Data.homepage.experience.button.URL | absURL }}" class="btn btn-primary" target="_blank" rel="noopener">
+                          <i class="{{ .Site.Data.homepage.experience.button.icon }}"></i>
+                          {{ .Site.Data.homepage.experience.button.btnText }}
+                      </a>
+                      {{ if isset .Site.Data.homepage.experience "button2" }}
+                      <a href="{{ .Site.Data.homepage.experience.button2.URL | absURL }}" class="btn btn-frameless" target="_blank" rel="noopener">
+                          <i class="{{ .Site.Data.homepage.experience.button2.icon }}"></i>
+                          {{ .Site.Data.homepage.experience.button2.btnText }}
+                      </a>
+                      {{ end }}
+                  </div>
               </div>
           </div>
       </div>
