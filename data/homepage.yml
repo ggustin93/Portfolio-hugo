@@ -5,8 +5,8 @@ head:
 showcase:
   enable: true
   title: "Hello, I'm Guillaume"
-  subtitle: "Full-Stack JS Developer"
-  description: "I develop thoughtful digital solutions that combine technical knowledge with strategic approach. <br><br>Working on projects for organizations focused on <b>social impact</b> and <b>sustainability</b> 🌱"
+  subtitle: "Software Engineer"
+  description: " I help mission-driven organizations work toward their goals 🎯 by creating practical digital solutions designed to enhance their visibility and effectiveness. <br><br> Drawing on both technical experience and strategic thinking, I look for opportunities to contribute to meaningful projects and develop thoughtful, user-centered solutions. 🤝 Let's discuss!"
   image:
     x: "img/showcase/showcase.webp"
     _2x: "img/showcase/showcase@2x.webp"
@@ -39,13 +39,13 @@ about:
   icon: "icon-user-fill"
   content: |
     <p class="lead">
-    Web developer with a background in Biomedical Engineering, I apply an analytical approach to digital projects. I build responsive and intuitive interfaces that balance technical requirements with good user experiences.
+    With a background in Biomedical Engineering (UCLouvain, 2016), I apply an analytical approach to web and software development. I strive to translate complex requirements into accessible, user-friendly applications that balance technical needs with intuitive design, with particular interest in healthcare technology.
     </p>
     <p class="lead">
-    My professional background includes eHealth research, a medtech startup, and consulting for impact-driven organizations. I work at the intersection of technical development and user-centered design, with a focus on healthcare applications.
+    My journey includes work on digital health platforms during research at UCLouvain, cofounding the medtech startup MedC2 (later acquired by Comunicare) focused on patient empowerment, and supporting non-profits with digital transformation at Bruxeo. In parallel, through my web agency Pwablo, I explore and share sustainable approaches to digital practices.
     </p>
     <p class="lead">
-    Beyond development, I'm committed to sustainable digital practices and solutions aligned with environmental and social values. I approach each client project with careful attention to quality and purpose.
+    I aim to create thoughtful software solutions that address real needs and provide value to the organizations and people who use them.
     </p>
   button:
     icon: "icon-smile-fill"
